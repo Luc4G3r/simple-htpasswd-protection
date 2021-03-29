@@ -1,0 +1,5 @@
+# add this to .htaccess file and create .htpasswd containing the password
+AuthName ""
+AuthType Basic
+AuthUserFile /webroot/.htpasswd
+require valid-user
