@@ -1,4 +1,4 @@
-# add this to .htaccess file and create .htpasswd containing the password
+# add this to .htaccess file
 AuthName ""
 AuthType Basic
 AuthUserFile /webroot/.htpasswd
